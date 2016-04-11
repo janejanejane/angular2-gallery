@@ -2,6 +2,9 @@ import { Component, OnInit } from 'angular2/core';
 import { Hero } from './hero';
 import { HeroDetailComponent } from './hero-detail.component';
 import { HeroService } from './hero.service';
+import { Widget } from './widget';
+import { WidgetDetailComponent } from './widget-detail.component';
+import { WidgetService } from './widget.service';
 
 @Component({
   selector: 'app',
